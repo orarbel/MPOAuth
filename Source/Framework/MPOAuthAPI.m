@@ -49,7 +49,7 @@ NSString * const MPOAuthAuthenticationURLKey		= @"MPOAuthAuthenticationURL";
 }
 
 - (id)initWithCredentials:(NSDictionary *)inCredentials authenticationURL:(NSURL *)inAuthURL andBaseURL:(NSURL *)inBaseURL {
-	return [self initWithCredentials:inCredentials authenticationURL:inBaseURL andBaseURL:inBaseURL autoStart:YES];	
+	return [self initWithCredentials:inCredentials authenticationURL:inAuthURL andBaseURL:inBaseURL autoStart:YES];	
 }
 
 - (id)initWithCredentials:(NSDictionary *)inCredentials authenticationURL:(NSURL *)inAuthURL andBaseURL:(NSURL *)inBaseURL autoStart:(BOOL)aFlag {
